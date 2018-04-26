@@ -80,7 +80,7 @@ exports.handler = function (request, context) {
     
     function stubControlFunctionToYourCloud(path, powerResult, request, context) {
         var postData = querystring.stringify({'msg' : powerResult});    
-        var hostname = "your server name";
+        var hostname = "your server name...";
         var options = {
             hostname: hostname,
             port: 443,
